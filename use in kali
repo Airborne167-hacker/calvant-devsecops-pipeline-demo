@@ -1,0 +1,5 @@
+Secrets detection demo (Gitleaks)
+
+Run command locally in Kali :
+
+gitleaks detect --source .
