@@ -1,0 +1,17 @@
+Check:
+
+ls
+
+Agar file dikhe:
+
+zap-report.html
+
+to ready hai.
+
+Agar nahi dikhe:
+
+Run again:
+
+docker run -v $(pwd):/zap/wrk/:rw -t --network=host \
+ghcr.io/zaproxy/zaproxy:stable \
+zap-baseline.py -t http://localhost:5000 -r zap-report.html
