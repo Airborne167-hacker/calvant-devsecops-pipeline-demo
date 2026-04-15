@@ -1,0 +1,13 @@
+Dependency vulnerability scan
+
+Install:
+
+sudo apt install dependency-check
+
+Run:
+
+dependency-check.sh --scan .
+
+HTML report generate hogi.
+
+Meeting proof ready.
