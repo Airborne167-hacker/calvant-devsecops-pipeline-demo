@@ -1,0 +1,18 @@
+Professional repos me scan outputs separate folder me store kiye jaate hain.
+
+Create folder:
+
+mkdir scans
+
+Ab example scan outputs save karte hain:
+
+Trivy filesystem scan report
+trivy fs . > scans/trivy-fs-report.txt
+Container scan report
+trivy image calvant-secure-demo > scans/trivy-image-report.txt
+Dependency scan report
+pip-audit > scans/pip-audit-report.txt
+Semgrep report
+semgrep --config=auto . > scans/semgrep-report.txt
+
+Ab scans/ folder meaningful ban gaya.
