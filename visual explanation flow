@@ -1,0 +1,22 @@
+Developer Commit
+        ↓
+Secrets Scan (Gitleaks)
+        ↓
+SAST Scan (Semgrep)
+        ↓
+Dependency Scan (Safety + pip-audit)
+        ↓
+Filesystem Scan (Trivy FS)
+        ↓
+Docker Build
+        ↓
+Container CVE Scan (Trivy Image)
+        ↓
+Runtime DAST Scan (OWASP ZAP)
+        ↓
+Security Gate Decision
+   ↙              ↘
+Dev Policy       Prod Policy
+Allowed ✅       Blocked ❌
+
+Visual instance architecture-level
