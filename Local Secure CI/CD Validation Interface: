@@ -1,0 +1,19 @@
+GitHub Repo
+   ↓
+Secrets Scan
+   ↓
+SAST Scan
+   ↓
+Dependency Scan
+   ↓
+Docker Build
+   ↓
+Container Scan
+   ↓
+Run Container
+   ↓
+DAST Scan
+   ↓
+Security Gate Decision
+
+Aur ye sab Jenkins pipeline me automated.
