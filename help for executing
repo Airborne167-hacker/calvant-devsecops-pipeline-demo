@@ -1,0 +1,15 @@
+Static code scan demo (Semgrep)
+
+Install:
+
+pip install semgrep
+
+Run:
+
+semgrep --config=auto .
+
+Output show karega insecure patterns.
+
+imp line:
+
+Static analysis executed to detect insecure coding logic before containerization stage.
