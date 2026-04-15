@@ -1,0 +1,21 @@
+Pipeline workflow:
+
+Code Commit
+↓
+Secrets Scan
+↓
+Static Scan
+↓
+Dependency Scan
+↓
+Docker Build
+↓
+Container Scan
+↓
+DAST Scan
+↓
+Security Gate
+↓
+Deployment Approval
+
+exact enterprise DevSecOps architecture .
