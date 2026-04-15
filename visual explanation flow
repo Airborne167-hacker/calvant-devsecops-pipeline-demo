@@ -20,3 +20,6 @@ Dev Policy       Prod Policy
 Allowed ✅       Blocked ❌
 
 Visual instance architecture-level
+( I implemented two security gate policies —
+a relaxed threshold for development validation and a strict zero-tolerance threshold for production deployment control
+— demonstrating environment-aware release governance inside the DevSecOps pipeline.)
