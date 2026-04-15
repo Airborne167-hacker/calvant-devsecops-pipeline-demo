@@ -13,3 +13,7 @@ Trivy Scan
 Run Container
    ↓
 OWASP ZAP Scan
+
+
+
+this is called “pre-integration testing environment”
