@@ -1,0 +1,7 @@
+Runtime DAST scan demo (ZAP baseline)
+
+Run:
+
+zap-baseline.py -t http://localhost:5000
+
+Even partial result chalega.
