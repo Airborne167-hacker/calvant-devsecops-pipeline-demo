@@ -11,3 +11,4 @@ Security stages implemented:
 
 Objective:
 Upgrade existing CI/CD pipeline into Secure CI/CD pipeline.
+" I prepared a working DevSecOps pipeline prototype integrating automated secrets scanning, SAST, dependency scanning, container scanning and DAST validation to demonstrate how Calvant CI/CD can be upgraded into a secure pipeline architecture. "
