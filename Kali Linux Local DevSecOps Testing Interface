@@ -1,0 +1,15 @@
+GitHub Repo
+   ↓
+Secrets Scan (Gitleaks)
+   ↓
+SAST Scan (Semgrep)
+   ↓
+Dependency Scan
+   ↓
+Docker Build
+   ↓
+Trivy Scan
+   ↓
+Run Container
+   ↓
+OWASP ZAP Scan
